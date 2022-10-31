@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CertificationsFragment"
+    android:id="@+id/fragment_about"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:background="@drawable/gradient_certifications"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Competitions and Certifications"
+            android:layout_gravity="start"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textColor="#f3ff87"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Competitions"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:background="@color/lime"/>
+
+                <ListView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:dividerHeight="2dp"
+                    android:divider="@color/yellow"
+                    android:id="@+id/competition_listview"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Courses"
+                    android:textStyle="italic"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="3dp"
+                    android:layout_gravity="center"
+                    android:background="@color/lime"/>
+
+                <ListView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:dividerHeight="2dp"
+                    android:divider="@color/yellow"
+                    android:id="@+id/course_listview"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        
+        
+        
+        
+    </LinearLayout>
+
+</FrameLayout>

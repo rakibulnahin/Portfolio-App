@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Rakibul Alam Nahin</string>
+
+    <string name="about">About</string>
+    <string name="skills">Skills</string>
+    <string name="experience">Experience</string>
+    <string name="certifications">Certifications</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="about_description">
+Hello good people, I am Rakibul Alam Nahin, a tech enthusiast, wannabe AI specialist and a full time One Piece fan.\n \n
+Love to hear music while walikng on the steets of Bangladesh cuz you cant get a peaceful ride on the Road (sadly).\n \n
+Although I have basic skills in Android Development, MERN stack, Data Science, and basic algorithms, I really wanna apply these skills somewhere in real other than mere project.
+So searching for one good work place a peaceful environment. \n \nThats all for now, contact for more details or boring conversation if you are also bored.
+
+    </string>
+
+</resources>

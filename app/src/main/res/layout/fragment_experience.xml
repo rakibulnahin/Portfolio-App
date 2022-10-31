@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExperienceFragment"
+    android:id="@+id/fragment_about">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:background="@drawable/gradient_experience">
+
+<!--        header-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Projects and Experience"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:shadowColor="@color/black"/>
+<!--        -->
+
+<!--     extra curricular activity-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Extra curricular activity"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="3dp"
+            android:background="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:drawableLeft="@drawable/ic_baseline_arrow_forward_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="BRACU Mongol Tori AI and Autonomous Team
+                \nDesignation: Junior 1"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:drawableLeft="@drawable/ic_baseline_arrow_forward_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="BRACU Duburi Web Team \nDesignation: Junior 1"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+            <TextView
+                android:drawableLeft="@drawable/ic_baseline_arrow_forward_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Former Secretary of Arts and Design Department at Robotics Club of Brac Unversity  "
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="17dp"/>
+
+        </LinearLayout>
+
+<!--        -->
+
+<!--        Project list-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:text="Project List"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="3dp"
+            android:background="@color/black"/>
+
+        <ListView
+            android:id="@+id/project_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/blue"
+            android:dividerHeight="2dp"/>
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
